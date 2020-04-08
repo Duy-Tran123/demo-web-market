@@ -1,0 +1,382 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    /* font-size: 43px; */
+
+}
+.top {
+    background: black;
+}
+.row-top {
+    display: flex;
+  
+}
+.col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    margin: 0 10px;
+}
+.content-top{
+	text-align: center;
+}
+p.p-top-title {
+    font-size: 10px;
+}
+h4.h4-top-title {
+    font-size: 15px;
+}
+div#top-right {
+    justify-content: flex-start;
+    padding-left: 45px;
+    border-left: 1px solid;
+}
+div#top-left {
+    justify-content: flex-end;
+    padding-right: 45px;
+    border-right: 1px solid;
+}
+li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.middle {
+    background: #F2F2F2;
+    position: relative;
+   
+}
+.content {
+    position: relative;
+    width: 90%;
+    left: 65px;
+    background: white;
+    height: 2600px;
+    border: outset;
+}
+.row-top-header {
+    display: flex;
+    justify-content: space-between;
+}
+#usa,#usd,#wish,#account,#checkout,#login,#shop{
+	text-decoration: none;
+	color: cadetblue;
+}
+.fa-angle-down:before {
+    content: "\f107";
+    color: cadetblue;
+}
+.fa-flag-usa:before {
+    content: "\f74d";
+    color: cadetblue;
+}
+.fa-heart:before {
+    content: "\f004";
+    color: cadetblue;
+}
+.fa-user-alt:before {
+    content: "\f406";
+    color: cadetblue;
+}
+.fa-check-square:before {
+    content: "\f14a";
+    color: cadetblue;
+}
+.fa-lock:before {
+    content: "\f023";
+    color: cadetblue;
+}
+.fa-cart-arrow-down:before {
+    content: "\f218";
+    padding: 5px;
+    background: black;
+    color: white;
+}
+.row-mid-header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: auto;
+    padding-left: 200px;
+}
+.logo-title,.p-logo{
+	color: black;
+	text-align: center;
+}
+.row-bot-header {
+    display: flex;
+    justify-content: space-between;
+}
+#home,#new,#pro,#special,#contact,#about,#offer,#buy{
+	text-decoration: none;
+	color: black;
+	font-size: 13px
+}
+.main-top {
+    display: flex;
+}
+#hinh1,#hinh2{
+	width: 100%;
+}
+#hinh3{
+	width: 100%;
+	margin-top: 35px;
+}
+ul.list {
+    margin-left: -30px;
+}
+.list-img {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+}
+..fa-caret-left:before {
+    content: "\f0d9";
+    color: black;
+}
+img.hinh19 {
+    width: 19%;
+    padding: 0 20px;
+    margin-right: 7px;
+}
+.fa-caret-right:before {
+    content: "\f0da";
+    color: black;
+}
+.logo-main,.logo-main-images{
+	margin-top: 25px;
+}
+.logo-main-images {
+    display: flex;
+}
+#hinh5,#hinh6,#hinh7{
+	width: 100%
+}
+.show {
+    display: none;
+    position: absolute;
+    background: #7D6327;
+    padding: 10px;
+    border-radius: 10px;
+}
+#show1,#show2,#show3 {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.col-md-4:hover .show{
+	display: block;
+
+}
+.new-arrival {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+}
+.p-main-title {
+    color: black;
+    text-align: center;
+}
+.arrvial {
+    color: black;
+    font-size: 25px;
+}
+.new-arrival {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+}
+.fa-angle-left:before {
+    content: "\f104";
+    background: white;
+    color: wheat;
+    padding: 4px;
+}
+.fa-angle-right:before {
+    content: "\f105";
+    background: deepskyblue;
+    padding: 4px;
+}
+img.image-item {
+    width: 100%;
+}
+.fa-star:before {
+    content: "\f005";
+    color: gray;
+}
+.main-item-new {
+    display: flex;
+}
+.col-md-3 {
+    text-align: center;
+}
+span.price {
+    color: black;
+    font-weight: bold;
+}
+strike {
+    color: black;
+}
+.p-main-title {
+    color: black;
+    text-align: center;
+}
+.fa-star:before {
+    content: "\f005";
+    color: gray;
+}
+.fa-shopping-cart:before {
+    content: "\f07a";
+    color: #c0d5d6;
+    padding: 3px;
+    border: solid 1px #e0ddd8;
+}
+.fa-heart:before {
+    content: "\f004";
+    padding: 3px;
+    color: #c0d5d6;
+    border: 1px solid;
+}
+.fa-chart-bar:before {
+    content: "\f080";
+    color: #c0d5d6;
+    padding: 3px;
+    border: solid 1px;
+}
+div#colum2 {
+    border: outset;
+    height: 400px;
+}
+.sale {
+    margin-top: 25px;
+}
+img.hinh4 {
+    width: 100%;
+}
+.main-item-2 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.main-item-feartured {
+    display: flex;
+    justify-content: space-between;
+}
+span.featured-title-item {
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+span.line {
+    color: gray;
+    font-size: 20px;
+}
+span.new-item {
+    color: #d6c4c4;
+}
+.main-item-center {
+    display: flex;
+}   
+.row-item {
+    max-width: 20%;
+    text-align: center;
+}
+img.item-new {
+    width: 100%;
+}
+.collection_title,.collection_content,.collection_content-2{
+    color: black;
+}
+.col-md-6 {
+    text-align: center;
+}
+.content-bot {
+    margin-top: 40px;
+}
+.collection_row {
+    display: flex;
+}
+button#basic-addon1 {
+    color: white;
+    background: #F4A137;
+}
+div#input-inline {
+    margin-left: 200px;
+    width: 50%;
+    margin-top: 50px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bottom {
+    margin-top: 40px;
+}
+.follow.cotainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h6.fllow-title {
+    color: black;
+    margin-right: 36px;
+    font-size: 20px;
+}
+.fa-facebook-square:before {
+    content: "\f082";
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+.fa-twitter-square:before {
+    content: "\f081";
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-google-plus-square:before {
+    content: "\f0d4";
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-instagram-square:before {
+    content: "\f955";
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-youtube-square:before {
+    content: "\f431";
+    color: black;
+    font-size: 30px;
+}
+.row-bottom {
+    display: flex;
+}
+.our-shop,.our-shop-title,{
+    color: black;
+}
+th {
+    text-align: inherit;
+    color: black;
+}
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: black;
+}
+.fa-envelope-square:before {
+    content: "\f199";
+    color: black;
+}
+.fa-mobile-alt:before {
+    content: "\f3cd";
+    color: black;
+}
